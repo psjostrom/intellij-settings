@@ -8,6 +8,7 @@
       <mapping pattern="eslog" type="PLAIN_TEXT" />
       <mapping pattern="slask2Request" type="PLAIN_TEXT" />
       <mapping ext="table" type="PLAIN_TEXT" />
+      <mapping ext="restclient" type="PLAIN_TEXT" />
       <mapping ext="story" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
