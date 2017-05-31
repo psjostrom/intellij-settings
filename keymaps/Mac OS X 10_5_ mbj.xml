@@ -10,6 +10,9 @@
     <keyboard-shortcut first-keystroke="meta divide" />
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="d" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="b" />
   </action>
