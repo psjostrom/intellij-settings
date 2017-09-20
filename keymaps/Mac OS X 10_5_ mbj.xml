@@ -3,12 +3,33 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta subtract" />
+    <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="meta divide" />
-    <keyboard-shortcut first-keystroke="meta minus" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="d" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="b" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="f" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="l" />
+  </action>
+  <action id="Git.Rebase">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="r" />
+  </action>
+  <action id="Git.Tag">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="t" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
   </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift meta quote" />
@@ -37,5 +58,9 @@
   </action>
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="p" />
   </action>
 </keymap>
