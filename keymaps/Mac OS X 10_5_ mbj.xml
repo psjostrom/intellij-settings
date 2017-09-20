@@ -31,6 +31,9 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
+  <action id="Maven.ExecuteGoal">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="shift m" />
+  </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift meta quote" />
     <keyboard-shortcut first-keystroke="shift meta m" />

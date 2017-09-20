@@ -16,7 +16,7 @@
   <tool name="mvnci" description="mvn clean install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/mvn" />
-      <option name="PARAMETERS" value="clean install" />
+      <option name="PARAMETERS" value="clean install " />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
