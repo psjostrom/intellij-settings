@@ -62,6 +62,9 @@
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
+  <action id="Tool_ei4577_release-to-release-branch">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="r" />
+  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="p" />
