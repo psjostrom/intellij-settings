@@ -29,7 +29,7 @@
   </tool>
   <tool name="docker-release-to-release-branch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/run-repo.sh" />
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/run-repo-server.sh" />
       <option name="PARAMETERS" value="$ModuleFileDir$" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/git-bitbucket-private/docker.release" />
     </exec>
