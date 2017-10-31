@@ -62,6 +62,9 @@
   <action id="Tool_ei4577_docker-release-to-release-branch">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="r" />
   </action>
+  <action id="Tool_ei4577_docker-release-to-release-branch-local">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="l" />
+  </action>
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
