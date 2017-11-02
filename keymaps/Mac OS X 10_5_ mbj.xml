@@ -59,6 +59,9 @@
   <action id="Tool_ei4577_Terminal">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="t" />
   </action>
+  <action id="Tool_ei4577_docker-release-to-master-branch-local">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl l" />
+  </action>
   <action id="Tool_ei4577_docker-release-to-release-branch">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="r" />
   </action>
