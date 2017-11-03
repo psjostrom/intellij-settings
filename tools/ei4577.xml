@@ -20,4 +20,11 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
+  <tool name="release-to-release-branch-local" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release.sh" />
+      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://localhost:8000&quot; &quot;release-to-release-branch&quot;" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git-bitbucket-private/docker.release" />
+    </exec>
+  </tool>
 </toolSet>
