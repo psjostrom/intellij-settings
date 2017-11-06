@@ -59,6 +59,9 @@
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
+  <action id="Tool_ei4577_release-to-master-branch-local">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl l" />
+  </action>
   <action id="Tool_ei4577_release-to-release-branch-local">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="l" />
   </action>
