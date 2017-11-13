@@ -29,8 +29,8 @@
   </tool>
   <tool name="docker-release-to-release-branch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release-to-relese-branch.sh" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot;" />
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release.sh" />
+      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot; &quot;release-to-release-branch&quot;" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
