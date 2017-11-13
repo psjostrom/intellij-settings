@@ -34,6 +34,13 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
+  <tool name="docker-release-to-master-branch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release.sh" />
+      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot; &quot;release-to-master-branch&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
   <tool name="docker-release-to-release-branch-local" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release.sh" />
@@ -46,6 +53,13 @@
       <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release.sh" />
       <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://localhost:8000&quot; &quot;release-to-master-branch&quot;" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="bitbucket-open-url" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git/scripts/bitbucket-open-url.sh" />
+      <option name="PARAMETERS" value="$ModuleFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/scripts" />
     </exec>
   </tool>
 </toolSet>

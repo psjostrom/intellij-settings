@@ -59,6 +59,12 @@
   <action id="Tool_ei4577_Terminal">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="t" />
   </action>
+  <action id="Tool_ei4577_bitbucket-open-url">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
+  </action>
+  <action id="Tool_ei4577_docker-release-to-master-branch">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl r" />
+  </action>
   <action id="Tool_ei4577_docker-release-to-master-branch-local">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl l" />
   </action>
