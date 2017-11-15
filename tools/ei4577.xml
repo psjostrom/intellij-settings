@@ -55,11 +55,11 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
-  <tool name="bitbucket-open-url" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="git-open-remote" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/git/scripts/bitbucket-open-url.sh" />
-      <option name="PARAMETERS" value="$ModuleFileDir$" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/scripts" />
+      <option name="COMMAND" value="$USER_HOME$/git/scripts/git-open-remote.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
 </toolSet>
