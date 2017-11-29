@@ -62,6 +62,9 @@
   <action id="Tool_ei4577_bitbucket-open-url">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
   </action>
+  <action id="Tool_ei4577_docker-build-snapshot-local">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="b" />
+  </action>
   <action id="Tool_ei4577_docker-release-to-master-branch">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl r" />
   </action>
