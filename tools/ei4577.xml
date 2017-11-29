@@ -69,4 +69,11 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
+  <tool name="docker-build-snapshot" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-snapshot.sh" />
+      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
