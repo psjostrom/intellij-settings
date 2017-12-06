@@ -59,6 +59,15 @@
   <action id="Tool_ei4577_Terminal">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="t" />
   </action>
+  <action id="Tool_ei4577_aid">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="a" />
+  </action>
+  <action id="Tool_ei4577_bb-get-branches">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="b" />
+  </action>
+  <action id="Tool_ei4577_bb-get-tags">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="t" />
+  </action>
   <action id="Tool_ei4577_bitbucket-open-url">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
   </action>
