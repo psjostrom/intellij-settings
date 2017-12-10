@@ -68,6 +68,9 @@
   <action id="Tool_ei4577_release-to-release-branch-local">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="l" />
   </action>
+  <action id="Tool_ei4577_snapshot-local">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="b" />
+  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="p" />
