@@ -92,6 +92,9 @@
   <action id="Tool_ei4577_docker-release-to-release-branch-local">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="l" />
   </action>
+  <action id="Tool_ei4577_git-commit-and-push">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="c" />
+  </action>
   <action id="Tool_ei4577_git-open-remote">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
   </action>

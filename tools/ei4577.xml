@@ -104,4 +104,11 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
+  <tool name="git-commit-and-push" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git/scripts/git-commit-and-push.sh" />
+      <option name="PARAMETERS" value="$ModuleFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
