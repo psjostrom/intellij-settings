@@ -31,6 +31,9 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
+  <action id="Macro.spring-boot">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
+  </action>
   <action id="Maven.ExecuteGoal">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="shift m" />
   </action>
