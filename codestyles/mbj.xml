@@ -1,0 +1,8 @@
+<code_scheme name="mbj">
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <codeStyleSettings language="Groovy">
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+  </codeStyleSettings>
+</code_scheme>
