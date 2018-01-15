@@ -31,10 +31,14 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
+  <action id="Macro.save_all_and_test_all">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift meta quote" />
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
+  <action id="SaveAll" />
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <keyboard-shortcut first-keystroke="shift meta comma" />
