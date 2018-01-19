@@ -64,6 +64,9 @@
   <action id="Tool_ei4577_Terminal">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="t" />
   </action>
+  <action id="Tool_ei4577_git status">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="s" />
+  </action>
   <action id="Tool_ei4577_git-open-remote">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
   </action>
