@@ -16,7 +16,7 @@
   <tool name="mvnci" description="mvn clean install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/mvn" />
-      <option name="PARAMETERS" value="clean install -Dmaven.javadoc.skip=true" />
+      <option name="PARAMETERS" value="clean install -Dmaven.javadoc.skip=true --fail-at-end" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
@@ -108,6 +108,13 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/git/scripts/git-commit-and-push.sh" />
       <option name="PARAMETERS" value="$ModuleFileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="mvni" description="mvn install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/mvn" />
+      <option name="PARAMETERS" value="install -Dmaven.javadoc.skip=true --fail-at-end" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
