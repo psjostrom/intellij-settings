@@ -27,52 +27,10 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
-  <tool name="docker-build-snapshot-local" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-snapshot.sh" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://localhost:8000&quot;" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="docker-release-to-release-branch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote_release.py" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot; &quot;release-to-release-branch&quot;" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="docker-release-to-master-branch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote_release.py" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot; &quot;release-to-master-branch&quot;" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="docker-release-to-release-branch-local" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote_release.py" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://localhost:8000&quot; &quot;release-to-release-branch&quot;" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="docker-release-to-master-branch-local" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote_release.py" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://localhost:8000&quot; &quot;release-to-master-branch&quot;" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
   <tool name="git-open-remote" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/git/scripts/sh/git-open-remote.sh" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="docker-build-snapshot" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-snapshot.sh" />
-      <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://10.46.64.31:8000&quot;" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
@@ -97,13 +55,6 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
-  <tool name="docker-config-release-to-release-branch" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="curl" />
-      <option name="PARAMETERS" value="-N -s http://10.46.64.31:8000/cgi-bin/api" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
   <tool name="git-commit-and-push" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/git/scripts/git-commit-and-push.sh" />
@@ -115,6 +66,27 @@
     <exec>
       <option name="COMMAND" value="/usr/local/bin/mvn" />
       <option name="PARAMETERS" value="install -Dmaven.javadoc.skip=true --fail-at-end" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="z-snapshot" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="curl" />
+      <option name="PARAMETERS" value="-s -N http://10.46.64.31:8888/wildcat/snapshot?fg=true" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="z-release" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="curl" />
+      <option name="PARAMETERS" value="-s -N http://10.46.64.31:8888/wildcat/release?fg=true" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="z-webhook" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket/lf/BOSSEBU/wildcat/py/client/container_snapshot.py" />
+      <option name="PARAMETERS" value="-u http://10.46.64.31:8888" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>

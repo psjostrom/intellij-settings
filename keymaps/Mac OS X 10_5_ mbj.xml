@@ -87,6 +87,15 @@
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
+  <action id="Tool_ei4577_z-release">
+    <keyboard-shortcut first-keystroke="ctrl z" second-keystroke="r" />
+  </action>
+  <action id="Tool_ei4577_z-snapshot">
+    <keyboard-shortcut first-keystroke="ctrl z" second-keystroke="s" />
+  </action>
+  <action id="Tool_ei4577_z-webhook">
+    <keyboard-shortcut first-keystroke="ctrl z" second-keystroke="w" />
+  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="alt g" second-keystroke="p" />
