@@ -84,6 +84,15 @@
   <action id="Tool_ei4577_git-open-remote">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
   </action>
+  <action id="Tool_ei4577_lhb-release">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="r" />
+  </action>
+  <action id="Tool_ei4577_lhb-snapshot">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="s" />
+  </action>
+  <action id="Tool_ei4577_lhb-webhook">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="w" />
+  </action>
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
