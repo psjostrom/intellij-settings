@@ -85,8 +85,8 @@
   </tool>
   <tool name="lhb-webhook" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket/lf/BOSSEBU/wildcat/py/client/container_snapshot.py" />
-      <option name="PARAMETERS" value="-u http://10.46.64.31:7777" />
+      <option name="COMMAND" value="$USER_HOME$/git-bitbucket/lhb/PSLAS/wildcat/py/client/container_snapshot.py" />
+      <option name="PARAMETERS" value="-u http://127.0.0.1:7777" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
