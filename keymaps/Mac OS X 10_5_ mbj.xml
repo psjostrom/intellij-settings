@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X 10.5+ mbj" parent="Mac OS X 10.5+">
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
