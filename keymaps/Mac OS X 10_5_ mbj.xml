@@ -1,6 +1,6 @@
 <keymap version="1" name="Mac OS X 10.5+ mbj" parent="Mac OS X 10.5+">
   <action id=":cursive.repl.actions/run-last-sexp">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="x" />
   </action>
   <action id=":cursive.testing.actions/run-ns-tests">
     <keyboard-shortcut first-keystroke="alt t" />
