@@ -47,6 +47,9 @@
     <keyboard-shortcut first-keystroke="shift meta quote" />
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
+  <action id="ShowCursiveCheatSheet">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <keyboard-shortcut first-keystroke="shift meta comma" />
