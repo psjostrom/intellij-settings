@@ -48,4 +48,11 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
+  <tool name="git status" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="git" />
+      <option name="PARAMETERS" value="status" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
