@@ -1,5 +1,8 @@
-<code_scheme name="mbj">
+<code_scheme name="mbj" version="173">
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <Python>
+    <option name="OPTIMIZE_IMPORTS_SORT_NAMES_IN_FROM_IMPORTS" value="true" />
+  </Python>
   <codeStyleSettings language="Groovy">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
