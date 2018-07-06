@@ -12,6 +12,7 @@
       <mapping ext="story" type="PLAIN_TEXT" />
       <mapping ext="restclient" type="PLAIN_TEXT" />
       <mapping ext="table" type="PLAIN_TEXT" />
+      <mapping ext="gradle" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
