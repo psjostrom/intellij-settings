@@ -2,7 +2,7 @@
   <tool name="Terminal" description="Open in external terminal" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/bin/open" />
-      <option name="PARAMETERS" value="-a /Applications/Utilities/Terminal.app &quot;$FileDir$&quot;" />
+      <option name="PARAMETERS" value="-a /Applications/iTerm.app &quot;$FileDir$&quot;" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
@@ -20,13 +20,6 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
-  <tool name="slask" description="slask" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.test/slask.sh" />
-      <option name="PARAMETERS" value="$ModuleFileDir$" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
   <tool name="git-open-remote" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/git/scripts/sh/git-open-remote.sh" />
@@ -41,13 +34,6 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
-  <tool name="bb-get-tags" description="get tags from bitbucket" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="bb-get-tags" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
   <tool name="bb-get-branches" description="get branches from bitbucket" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="bb-get-branches" />
@@ -55,38 +41,10 @@
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
-  <tool name="git-commit-and-push" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git/scripts/git-commit-and-push.sh" />
-      <option name="PARAMETERS" value="$ModuleFileDir$" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
   <tool name="mvni" description="mvn install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/mvn" />
       <option name="PARAMETERS" value="install -Dmaven.javadoc.skip=true --fail-at-end" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="lhb-snapshot" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="curl" />
-      <option name="PARAMETERS" value="-s -N http://10.46.64.31:7777/wildcat/snapshot?fg=true" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="lhb-release" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="curl" />
-      <option name="PARAMETERS" value="-s -N http://10.46.64.31:7777/wildcat/release?fg=true" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="lhb-webhook" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git-bitbucket/lhb/PSLAS/wildcat/py/client/container_snapshot.py" />
-      <option name="PARAMETERS" value="-u http://10.46.64.31:7777" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
