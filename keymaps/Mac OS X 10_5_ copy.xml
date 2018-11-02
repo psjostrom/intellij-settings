@@ -1,0 +1,14 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="minus" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="x" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="z" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
+  </action>
+</keymap>
