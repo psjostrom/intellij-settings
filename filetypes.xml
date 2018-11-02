@@ -2,22 +2,19 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping pattern="student_is_educated_in_addition.story" type="PLAIN_TEXT" />
-      <mapping pattern="slask2" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="Groovy" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="slask2Request" type="PLAIN_TEXT" />
       <mapping pattern="restclient" type="PLAIN_TEXT" />
-      <mapping pattern="env" type="PLAIN_TEXT" />
-      <mapping pattern="eslog" type="PLAIN_TEXT" />
-      <mapping pattern="env_secret" type="PLAIN_TEXT" />
+      <mapping pattern="student_is_educated_in_addition.story" type="PLAIN_TEXT" />
+      <mapping pattern="dog" type="PLAIN_TEXT" />
       <mapping pattern="IEC" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping ext="story" type="PLAIN_TEXT" />
-      <mapping ext="restclient" type="PLAIN_TEXT" />
-      <mapping ext="ql" type="PLAIN_TEXT" />
+      <mapping pattern="slask" type="PLAIN_TEXT" />
+      <mapping pattern="eslog" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="table" type="PLAIN_TEXT" />
-      <mapping ext="plist" type="PLAIN_TEXT" />
-      <mapping ext="gradle" type="PLAIN_TEXT" />
-      <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="restclient" type="PLAIN_TEXT" />
+      <mapping ext="story" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

@@ -2,7 +2,7 @@
   <tool name="Terminal" description="Open in external terminal" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/bin/open" />
-      <option name="PARAMETERS" value="-a /Applications/Utilities/Terminal.app &quot;$FileDir$&quot;" />
+      <option name="PARAMETERS" value="-a /Applications/iTerm.app &quot;$FileDir$&quot;" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
@@ -16,7 +16,35 @@
   <tool name="mvnci" description="mvn clean install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/mvn" />
-      <option name="PARAMETERS" value="clean install" />
+      <option name="PARAMETERS" value="clean install -Dmaven.javadoc.skip=true --fail-at-end" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="git-open-remote" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/git/scripts/sh/git-open-remote.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="aid" description="copy artifact id to clipboard" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="aid" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="bb-get-branches" description="get branches from bitbucket" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="bb-get-branches" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="mvni" description="mvn install" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/mvn" />
+      <option name="PARAMETERS" value="install -Dmaven.javadoc.skip=true --fail-at-end" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
@@ -31,13 +59,6 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/git-bitbucket-private/docker.release/remote-release.sh" />
       <option name="PARAMETERS" value="$ModuleFileDir$ &quot;http://localhost:8000&quot; &quot;release-to-master-branch&quot;" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-    </exec>
-  </tool>
-  <tool name="git-open-remote" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/git/script/git-open-remote.sh" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
     </exec>
   </tool>
