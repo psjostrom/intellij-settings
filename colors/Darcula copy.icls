@@ -3,7 +3,7 @@
     <property name="created">2018-10-12T10:04:57</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-11-06T07:54:06</property>
+    <property name="modified">2018-11-06T17:39:52</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <attributes>
@@ -47,19 +47,35 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="PY.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="78aa94" />
+      </value>
+    </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="e2e082" />
       </value>
     </option>
+    <option name="PY.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="229169" />
+      </value>
+    </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="b246af" />
+        <option name="FOREGROUND" value="b25ea4" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="b261af" />
+      </value>
+    </option>
+    <option name="PY.STRING.U">
+      <value>
+        <option name="FOREGROUND" value="468061" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
