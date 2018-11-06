@@ -1,0 +1,72 @@
+<scheme name="Darcula copy" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-10-12T10:04:57</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2017.3.1.0.0</property>
+    <property name="modified">2018-11-06T07:54:06</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="BREAKPOINT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3a2323" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="d5a6e8" />
+      </value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ea9033" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="f7f618" />
+        <option name="ERROR_STRIPE_COLOR" value="f3ff08" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ec9532" />
+      </value>
+    </option>
+    <option name="LINE_NONE_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="f91325" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LINE_PARTIAL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="f7f618" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="e2e082" />
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="b246af" />
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_USAGE">
+      <value>
+        <option name="FOREGROUND" value="b261af" />
+      </value>
+    </option>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="fff8f6" />
+        <option name="BACKGROUND" value="f91325" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

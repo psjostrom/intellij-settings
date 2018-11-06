@@ -1,4 +1,10 @@
 <keymap version="1" name="Mac OS X 10.5+ mbj" parent="Mac OS X 10.5+">
+  <action id=":cursive.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="x" />
+  </action>
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
@@ -31,17 +37,28 @@
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
-  <action id="Macro.save_all_and_test_all">
-    <keyboard-shortcut first-keystroke="meta s" />
+  <action id="Macro.spring-boot">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
+  </action>
+  <action id="Maven.ExecuteGoal">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="shift m" />
   </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="shift meta quote" />
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
-  <action id="SaveAll" />
+  <action id="ShowCursiveCheatSheet">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <keyboard-shortcut first-keystroke="shift meta comma" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="minus" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -58,29 +75,56 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="z" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
+  </action>
   <action id="Tool_ei4577_Emacs">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
   </action>
   <action id="Tool_ei4577_Terminal">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="t" />
   </action>
-  <action id="Tool_ei4577_git status">
-    <keyboard-shortcut first-keystroke="alt g" second-keystroke="s" />
+  <action id="Tool_ei4577_aid">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="a" />
+  </action>
+  <action id="Tool_ei4577_bb-get-branches">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="b" />
+  </action>
+  <action id="Tool_ei4577_bb-get-tags">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="t" />
+  </action>
+  <action id="Tool_ei4577_bitbucket-open-url">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
+  </action>
+  <action id="Tool_ei4577_git-commit-and-push">
+    <keyboard-shortcut first-keystroke="alt g" second-keystroke="c" />
   </action>
   <action id="Tool_ei4577_git-open-remote">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
   </action>
+  <action id="Tool_ei4577_lhb-release">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="r" />
+  </action>
+  <action id="Tool_ei4577_lhb-snapshot">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="s" />
+  </action>
+  <action id="Tool_ei4577_lhb-webhook">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="w" />
+  </action>
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
-  <action id="Tool_ei4577_release-to-master-branch-local">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl l" />
+  <action id="Tool_ei4577_z-release">
+    <keyboard-shortcut first-keystroke="ctrl z" second-keystroke="r" />
   </action>
-  <action id="Tool_ei4577_release-to-release-branch-local">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="l" />
+  <action id="Tool_ei4577_z-snapshot">
+    <keyboard-shortcut first-keystroke="ctrl z" second-keystroke="s" />
   </action>
-  <action id="Tool_ei4577_snapshot-local">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="b" />
+  <action id="Tool_ei4577_z-webhook">
+    <keyboard-shortcut first-keystroke="ctrl z" second-keystroke="w" />
   </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta k" />
