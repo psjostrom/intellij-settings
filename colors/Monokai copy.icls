@@ -3,7 +3,7 @@
     <property name="created">2018-11-07T09:22:45</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-11-07T09:44:00</property>
+    <property name="modified">2018-11-07T12:35:17</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
@@ -436,7 +436,6 @@
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="fd971f" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
@@ -475,7 +474,6 @@
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="fd971f" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
@@ -492,13 +490,11 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="fd971f" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -1456,7 +1452,6 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
-        <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="ff" />
       </value>
     </option>
