@@ -3,13 +3,13 @@
     <property name="created">2018-11-07T11:04:33</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-11-07T11:50:38</property>
+    <property name="modified">2018-11-07T15:29:47</property>
     <property name="originalScheme">Monokai copy</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="0" />
     <option name="GUTTER_BACKGROUND" value="272822" />
     <option name="INDENT_GUIDE" value="3b3a32" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
@@ -581,6 +581,12 @@
         <option name="EFFECT_COLOR" value="ff6767" />
         <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="FOLDED_TEXT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="8c8c8c" />
+        <option name="BACKGROUND" value="313131" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -1461,7 +1467,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="272822" />
+        <option name="BACKGROUND" value="0" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
