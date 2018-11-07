@@ -3,7 +3,7 @@
     <property name="created">2018-10-12T10:04:57</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-11-06T17:39:52</property>
+    <property name="modified">2018-11-07T07:26:13</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <attributes>
@@ -75,7 +75,6 @@
     <option name="PY.STRING.U">
       <value>
         <option name="FOREGROUND" value="468061" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
