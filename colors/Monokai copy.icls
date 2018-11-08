@@ -3,7 +3,7 @@
     <property name="created">2018-11-07T09:22:45</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-11-07T16:08:28</property>
+    <property name="modified">2018-11-07T14:32:50</property>
     <property name="originalScheme">_@user_Monokai</property>
   </metaInfo>
   <colors>
@@ -442,6 +442,7 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="fd971f" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -478,12 +479,12 @@
     <option name="DEFAULT_METADATA" baseAttributes="TEXT" />
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="e6db74" />
+        <option name="FOREGROUND" value="ae81ff" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="e6db74" />
+        <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -499,6 +500,7 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="fd971f" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
@@ -581,6 +583,7 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="BACKGROUND" value="161717" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="c7c7ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -723,7 +726,7 @@
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fdae10" />
+        <option name="FOREGROUND" value="fda5ff" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
@@ -784,7 +787,7 @@
     </option>
     <option name="JAVA_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="2abbf9" />
+        <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -792,9 +795,14 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
+    <option name="JAVA_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ae81ff" />
+      </value>
+    </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="e6db74" />
+        <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
     <option name="JAVA_STRING">
@@ -840,11 +848,6 @@
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="LINE_FULL_COVERAGE">
-      <value>
-        <option name="FOREGROUND" value="485848" />
-      </value>
-    </option>
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -858,7 +861,6 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="80807f" />
-        <option name="BACKGROUND" value="a70105" />
       </value>
     </option>
     <option name="OC.BADCHARACTER">
@@ -1426,11 +1428,9 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fdae10" />
+        <option name="FOREGROUND" value="fda5ff" />
+        <option name="FONT_TYPE" value="3" />
       </value>
-    </option>
-    <option name="STATIC_METHOD_ATTRIBUTES">
-      <value />
     </option>
     <option name="TAG_ATTR_KEY">
       <value>
@@ -1489,6 +1489,7 @@
       <value>
         <option name="FOREGROUND" value="6afdff" />
         <option name="BACKGROUND" value="db151c" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="80472d" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
