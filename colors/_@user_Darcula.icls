@@ -4,13 +4,34 @@
     <property name="created">2018-10-11T23:35:55</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-10-12T23:31:50</property>
+    <property name="modified">2018-11-08T23:56:42</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
+    <option name="FILESTATUS_ADDED" value="aedc70" />
+    <option name="FILESTATUS_COPIED" value="aedc70" />
+    <option name="FILESTATUS_DELETED" value="727072" />
+    <option name="FILESTATUS_HIJACKED" value="fbd85c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="727072" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f65f87" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f65f87" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f65f87" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="aedc70" />
+    <option name="FILESTATUS_MERGED" value="ab9df5" />
+    <option name="FILESTATUS_MODIFIED" value="86dde9" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="86dde9" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="86dde9" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="3a8484" />
+    <option name="FILESTATUS_SUPPRESSED" value="727072" />
+    <option name="FILESTATUS_SWITCHED" value="ab9df5" />
+    <option name="FILESTATUS_UNKNOWN" value="f59762" />
+    <option name="FILESTATUS_addedOutside" value="aedc70" />
+    <option name="FILESTATUS_changelistConflict" value="f65f87" />
+    <option name="FILESTATUS_modifiedOutside" value="aedc70" />
     <option name="SELECTION_BACKGROUND" value="4f484e" />
   </colors>
   <attributes>
