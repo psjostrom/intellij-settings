@@ -26,4 +26,7 @@
   <action id="Tool_ei4577_mvnci">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="m" />
   </action>
+  <action id="WindowMenu">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
 </keymap>
