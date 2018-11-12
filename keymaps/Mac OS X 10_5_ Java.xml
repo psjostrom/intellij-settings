@@ -8,6 +8,16 @@
     <keyboard-shortcut first-keystroke="shift escape" />
     <keyboard-shortcut first-keystroke="meta escape" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl x" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="minus" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="x" />
+  </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="z" />
   </action>
