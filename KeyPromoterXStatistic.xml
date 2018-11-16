@@ -9,6 +9,22 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'scratch'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R' or '⌃X, ⌃X'</ShortCut>
+          <Description>Run 'scratch'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Scratch File">
+        <Item>
+          <IdeaActionID>NewScratchFile</IdeaActionID>
+          <ShortCut>'⇧⌘N'</ShortCut>
+          <Description>Scratch File</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Structure">
         <Item>
           <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
