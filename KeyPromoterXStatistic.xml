@@ -17,6 +17,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'slask.HelloKt'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R' or '⌃X, ⌃X'</ShortCut>
+          <Description>Run 'slask.HelloKt'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Scratch File">
         <Item>
           <IdeaActionID>NewScratchFile</IdeaActionID>
