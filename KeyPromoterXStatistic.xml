@@ -25,6 +25,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'Tests in 'se.lf.csl.internal.exchange''">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R' or '⌃X, ⌃X'</ShortCut>
+          <Description>Run 'Tests in 'se.lf.csl.internal.exchange''</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'scratch'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
