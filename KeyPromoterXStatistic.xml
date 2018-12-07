@@ -57,6 +57,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ExchangeProcessorEndpointTest.get producer template'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'ExchangeProcessorEndpointTest.get producer template'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ExchangeProcessorTest.exchange empty as property'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
