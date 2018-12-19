@@ -1,16 +1,15 @@
-<scheme name="Material Darker copy" version="142" parent_scheme="Darcula">
+<scheme name="_@user_Material Darker" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-11-11T10:20:56</property>
+    <property name="created">2018-11-08T23:30:00</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-11-12T08:03:32</property>
-    <property name="originalScheme">_@user_Material Darker</property>
+    <property name="modified">2018-11-11T10:19:07</property>
+    <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
-  <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
@@ -30,16 +29,16 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-    <option name="FILESTATUS_MERGED" value="1df3ff" />
+    <option name="FILESTATUS_MERGED" value="c792ea" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_OBSOLETE" value="7c7c00" />
     <option name="FILESTATUS_SUPPRESSED" value="616161" />
-    <option name="FILESTATUS_SWITCHED" value="1df3ff" />
+    <option name="FILESTATUS_SWITCHED" value="c792ea" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_addedOutside" value="c3e88d" />
-    <option name="FILESTATUS_modifiedOutside" value="1df3ff" />
+    <option name="FILESTATUS_modifiedOutside" value="82aaff" />
     <option name="GUTTER_BACKGROUND" value="212121" />
     <option name="INDENT_GUIDE" value="424242" />
     <option name="INFORMATION_HINT" value="212121" />
@@ -72,8 +71,16 @@
         <option name="FOREGROUND" value="c3e88d" />
       </value>
     </option>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="c792ea" />
+      </value>
+    </option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="c792ea" />
+      </value>
+    </option>
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
         <option name="FOREGROUND" value="c3e88d" />
@@ -98,12 +105,17 @@
     </option>
     <option name="Annotation">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
     <option name="Anonymous class name">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
+      </value>
+    </option>
+    <option name="Anotation attribute name">
+      <value>
+        <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -587,21 +599,23 @@
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="4a4a4a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -616,7 +630,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -627,6 +641,7 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="4a4a4a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -638,7 +653,7 @@
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="4a4a4a" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -648,7 +663,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -658,12 +673,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -678,7 +693,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -694,12 +709,14 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="c792ea" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="4a4a4a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -709,9 +726,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
-        <option name="BACKGROUND" value="212121" />
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -721,7 +736,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -731,27 +746,28 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="89ddff" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="eeffff" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -822,8 +838,6 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="dcdcdc" />
-        <option name="BACKGROUND" value="d00f0f" />
         <option name="EFFECT_COLOR" value="ff5370" />
         <option name="ERROR_STRIPE_COLOR" value="ff5370" />
         <option name="EFFECT_TYPE" value="2" />
@@ -1221,7 +1235,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="5f1a5e" />
+        <option name="EFFECT_COLOR" value="fffbf7" />
+        <option name="ERROR_STRIPE_COLOR" value="4f4f4f" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -1283,7 +1298,8 @@
     </option>
     <option name="JAVA_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="c792ea" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
@@ -1296,7 +1312,7 @@
     </option>
     <option name="JS.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
@@ -2217,11 +2233,6 @@
         <option name="FOREGROUND" value="c4b3a3" />
       </value>
     </option>
-    <option name="METHOD_CALL_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="1df3ff" />
-      </value>
-    </option>
     <option name="Map key">
       <value>
         <option name="FOREGROUND" value="c3e88d" />
@@ -2229,7 +2240,7 @@
     </option>
     <option name="Method call">
       <value>
-        <option name="FOREGROUND" value="1df3ff" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -3291,6 +3302,7 @@
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffc66d" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="SUGGESTION">
@@ -3587,6 +3599,7 @@
     <option name="Static method access">
       <value>
         <option name="FOREGROUND" value="ffc66d" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="Static property reference ID">
@@ -3613,8 +3626,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d6e7e7" />
-        <option name="BACKGROUND" value="0" />
+        <option name="FOREGROUND" value="eeffff" />
+        <option name="BACKGROUND" value="212121" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -3628,6 +3641,7 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffeb95" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
