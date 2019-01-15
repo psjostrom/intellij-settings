@@ -81,6 +81,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ExampleRouteBuilderTest.call'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'ExampleRouteBuilderTest.call'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ExchangeComponentTest.options body'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
