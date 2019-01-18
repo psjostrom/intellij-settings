@@ -2,10 +2,9 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="Jenkinsfile" type="Groovy" />
-      <mapping pattern="slask2Request" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="slask2Request" type="PLAIN_TEXT" />
       <mapping pattern="restclient" type="PLAIN_TEXT" />
       <mapping pattern="student_is_educated_in_addition.story" type="PLAIN_TEXT" />
       <mapping pattern="dog" type="PLAIN_TEXT" />
