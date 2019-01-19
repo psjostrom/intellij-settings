@@ -1,5 +1,5 @@
 <toolSet name="ei4577">
-  <tool name="Terminal" description="Open in external terminal" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Terminal" description="Open in external terminal" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/bin/open" />
       <option name="PARAMETERS" value="-a /Applications/iTerm.app &quot;$FileDir$&quot;" />
